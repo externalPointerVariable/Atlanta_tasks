@@ -5,3 +5,5 @@ numpy
 scipy
 easyocr
 filterpy
+scikit-image==0.17.2
+lap==0.4.0
