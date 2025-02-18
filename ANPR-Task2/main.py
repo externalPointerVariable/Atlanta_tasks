@@ -10,8 +10,8 @@ results = {}
 mot_tracker = Sort()
 
 # load models
-coco_model = YOLO('yolov8n.pt')
-license_plate_detector = YOLO('license_plate_detector.pt')
+coco_model = YOLO('yolov8n.pt', task='detect')
+license_plate_detector = YOLO('license_plate_detector.pt', task='detect')
 
 # load video
 cap = cv2.VideoCapture('./sample.mp4')

@@ -1,9 +1,9 @@
 ultralytics==8.0.114
 pandas
-opencv-python
-numpy
-scipy
+opencv-python==4.11.0.86
+scipy==1.15.2
 easyocr
 filterpy
 scikit-image==0.17.2
 lap==0.4.0
+numpy==2.2.3
