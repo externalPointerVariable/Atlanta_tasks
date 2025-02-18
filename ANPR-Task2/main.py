@@ -1,8 +1,11 @@
 from ultralytics import YOLO
 import cv2
+import sys
+
+sys.path.append('./ANPR-Task2/sort')
 
 import util
-from sort
+from sort.sort import Sort
 from util import get_car, read_license_plate, write_csv
 
 
