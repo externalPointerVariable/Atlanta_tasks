@@ -1,4 +1,4 @@
-# Speaker Recognition Using Deep Learning
+# Speaker Recognition System
 
 ## Overview
 This project implements a speaker recognition system using deep learning techniques. The system is trained to classify audio samples into predefined speaker categories using MFCC (Mel-Frequency Cepstral Coefficients) as features and an LSTM-based model for classification. Hyperparameter tuning is conducted using Keras Tuner to achieve optimal performance.
