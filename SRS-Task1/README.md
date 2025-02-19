@@ -17,17 +17,18 @@ The dataset consists of two main classes:
 
 The dataset is structured as follows:
 ```
-./dataset/
-    ├── speaker/
-    │   ├── speaker1.wav
-    │   ├── speaker2.wav
-    │   └── ...
-    ├── non_speaker/
-    │   ├── noise1.wav
-    │   ├── noise2.wav
-    │   └── ...
-```
+kaggle/working/
+            ├── speaker/
+            │   ├── speaker1.wav
+            │   ├── speaker2.wav
+            │   └── ...
+            ├── non_speaker/
+            │   ├── noise1.wav
+            │   ├── noise2.wav
+            │   └── ...
+        ```
 
+```
 ## Installation
 Ensure you have Python installed, then install the required dependencies:
 ```sh
@@ -84,15 +85,3 @@ plt.show()
 predicted_class = classify_audio("test_audio.wav", model, label_encoder)
 print(f"Predicted class: {predicted_class}")
 ```
-
-## Future Enhancements
-- Add more speakers for better generalization.
-- Implement real-time speaker verification.
-- Use Convolutional Recurrent Neural Networks (CRNN) for improved feature extraction.
-
-## Contributors
-- **Your Name** - Developer
-
-## License
-This project is licensed under the MIT License.
-
